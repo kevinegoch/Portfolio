@@ -33,9 +33,9 @@ I began compiling the model using “adam” as the optimizer, using “sparseca
 
 I fitted the model, choosing to have it run for a total of 50 epochs. Then, I plotted the training loss vs. validation loss and the training accuracy vs. validation accuracy. I suspected the CNN model could be improved upon, so I went on to do data augmentation and dropout. The model’s performance was about 96%. 
 
-![visuals](visuals_6.jpg)
-
 ![results](result_4.jpg)
+
+![visuals](visuals_6.jpg)
 
 ## Data Augmentation and Dropout
     
