@@ -14,5 +14,7 @@ The goal of the analysis is to train a model to correctly classify those with CV
 
 ## 3. Results 
 Winner Algorithm: Random Forest
+
 ![Random Forest](rfc_model.jpg) 
+
 Out of all the models used, the Random Forest model performed the best. The best score was about 73%. Although the results may seem, at first, unimpressive, it is important to recall the nature of the problem. I am trying to create a model that predicts CVD, which is no simple task. In fact, it is a difficult problem; if it weren't, then predicting CVD would be common practice. Furthermore, since I did minimal feature engineering, it is probable that the performance of the models could have been improved.
