@@ -2,7 +2,7 @@
 
 # Satellite Image Classification
     
-From government agencies to e-commerce retailers, the need for consistent and efficient image classification is prevalent. For certain companies, like those of the e-commerce type, a significant portion of their revenue comes from their apparel and accessories, whose selling depends on their classifications. Case in point: image classification is needed and is important. It also poses a problem in computer vision, a (fascinating) [field] (https://www.ibm.com/topics/computer-vision#:~:text=Computer%20vision%20is%20a%20field,recommendations%20based%20on%20that%20information.) in artificial intelligence that enables machines to derive meaningful information from images, videos, etc., with the motive of implementing actions and recommendations based on the information derived. 
+From government agencies to e-commerce retailers, the need for consistent and efficient image classification is prevalent. For certain companies, like those of the e-commerce type, a significant portion of their revenue comes from their apparel and accessories, whose selling depends on their classifications. Case in point: image classification is needed and is important. It also poses a problem in computer vision, a (fascinating) [field](https://www.ibm.com/topics/computer-vision#:~:text=Computer%20vision%20is%20a%20field,recommendations%20based%20on%20that%20information) in artificial intelligence that enables machines to derive meaningful information from images, videos, etc., with the motive of implementing actions and recommendations based on the information derived. 
 
 ## Problem Identification 
 
@@ -14,7 +14,7 @@ As mentioned, the goal is to train and employ a deep-learning model to successfu
 
 ## Sourcing and Loading Data
 
-The RS image dataset can be found [here] (https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification). I assured that the dataset had a plausible amount of images that a deep-learning neural network model can train on. (Taking this step better assures improving the chances of the classification model performing better.) I was set on using the [Keras] (https://keras.io/) library to do the deep-learning implementations. However, I required Tensorflow, the library that Keras is built on, to do the data splitting. I split the data into training and validation sets, keeping 30% of the training set for validation proposes. After splitting, I visually checked the images to see what I was working with.
+The RS image dataset can be found [here](https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification). I assured that the dataset had a plausible amount of images that a deep-learning neural network model can train on. (Taking this step better assures improving the chances of the classification model performing better.) I was set on using the [Keras](https://keras.io/) library to do the deep-learning implementations. However, I required Tensorflow, the library that Keras is built on, to do the data splitting. I split the data into training and validation sets, keeping 30% of the training set for validation proposes. After splitting, I visually checked the images to see what I was working with.
 
 ![loading_data](classes-loading.jpg)
 
@@ -51,8 +51,9 @@ After doing data augmentation, I checked to see the now augmented dataset’s im
 
 The new CNN model’s performance was about 88%, which, although lower than the previous model’s performance, showed signs of genuine pattern recognition, rather than overfitting. 
 
-![results] (result_9.jpg)
-![visuals] (visuals_10.jpg)
+![results](result_9.jpg)
+
+![visuals](visuals_10.jpg)
 
 ## Takeaways
 
